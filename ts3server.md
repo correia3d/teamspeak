@@ -1,6 +1,6 @@
 #!/bin/bash
 # Instalador Teamspeak Server
-# by Duartt
+# Espero que tenha lhe servido, Deseja contribuir? envie tibia coins para Du Artt.
 
 INSTALLER_VERSION="1.12"
 
@@ -334,7 +334,7 @@ function updateScript() {
             yellow_sleep "New installer version skiped."
         fi
     else
-        green_sleep "# You are using the up to date version ${INSTALLER_VERSION}."
+        green_sleep "# Você está usando a versão ${INSTALLER_VERSION}."
     fi
 }
 
@@ -410,7 +410,7 @@ function secure_user() {
 cyan " "
 cyan " "
 red "        Instalador Teamspeak Server"
-cyan "       by Duartt"
+cyan "       "
 cyan " "
 
 yellow "NOTE: Você pode sair do script a qualquer momento com CTRL + C"
@@ -428,7 +428,7 @@ fi
 cyan " "
 cyan "Atualize a lista de pacotes para a versão mais recente?"
 warn "AVISO: É recomendável atualizar o sistema antes de executar o instalador, caso contrário, as dependências podem travar ou o script pode não funcionar corretamente!"
-OPTIONS=("Update" "Pular (Não Recomendado)" "Sair")
+OPTIONS=("Atualizar" "Pular (Não Recomendado)" "Sair")
 select OPTION in "${OPTIONS[@]}"; do
     case "$REPLY" in
         1|2 ) break;;
@@ -614,6 +614,5 @@ yellow "	  NOTA: É recomendável iniciar o servidor TeaSpeak com o usuário cri
 yellow "	  Para iniciar o TeaSpeak, você pode usar os seguintes scripts bash:"
 yellow "      teastart.sh, teastart_minimal.sh, teastart_autorestart.sh and tealoop.sh."
 green_sleep "Script concluído com sucesso."
-red_sleep "Espero que tenha lhe servido, Deseja contribuir? envie coins para Du Artt :)"
 
 exit 0
