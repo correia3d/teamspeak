@@ -409,7 +409,7 @@ function secure_user() {
 cyan " "
 cyan " "
 red "        Instalador Teamspeak Server"
-cyan "       Espero que tenha lhe servido! Deseja me agradecer? tibia coins para Du Artt"
+cyan "        Espero que tenha sido útil! Deseja contribuir com tibia coin? envie para Du Artt"
 cyan " "
 
 yellow "NOTE: Você pode sair do script a qualquer momento com CTRL + C"
