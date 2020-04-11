@@ -531,7 +531,7 @@ fi
 # Caminho de instalação do TeamSpeak.
 cyan " "
 cyan "Por favor, digite o caminho da instalação do TeaSpeak."
-cyan "Empty input = /home/ | Example input = /srv/"
+cyan "Entrada Vazia = /home/ | Exemplo de entrada = /pasta/"
 read teaPath
 if [ -z "$teaPath" ]; then
     teaPath='home'
