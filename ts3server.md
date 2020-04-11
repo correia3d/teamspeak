@@ -1,6 +1,5 @@
 #!/bin/bash
 # Instalador Teamspeak Server
-# Espero que tenha lhe servido, Deseja contribuir? envie tibia coins para Du Artt.
 
 INSTALLER_VERSION="1.12"
 
@@ -410,7 +409,7 @@ function secure_user() {
 cyan " "
 cyan " "
 red "        Instalador Teamspeak Server"
-cyan "       "
+cyan "       Espero que tenha lhe servido! Deseja me agradecer? tibia coins para Du Artt"
 cyan " "
 
 yellow "NOTE: Você pode sair do script a qualquer momento com CTRL + C"
@@ -500,7 +499,7 @@ for split_package in ${split_data[@]}
 do
     test_installed ${split_package}
     if [ $? -ne 0 ]; then
-        error "Failed to install required packages for TeaSpeak!"
+        error "Falha ao instalar os pacotes necessários para o TeamSpeak!"
         exit 1
     fi
 done
