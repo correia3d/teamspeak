@@ -1,0 +1,2 @@
+# teamspeak
+script traduzido
