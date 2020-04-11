@@ -578,7 +578,7 @@ cyan " "
 green_sleep "# Tornando scripts executáveis."
 ${SUDO_PREFIX} chown -R $teaUser:$teaUser /$teaPath/$teaUser/*
 ${SUDO_PREFIX} chmod 774 /$TEASPEAK_DIR/*.sh
-green_sleep "DONE!"
+green_sleep "PRONTO!"
 
 cyan " "
 green_sleep "Terminado, TeamSpeak ${TEASPEAK_VERSION} agora está instalado!"
@@ -611,7 +611,7 @@ fi
 cyan " "
 yellow "	  NOTA: É recomendável iniciar o servidor TeaSpeak com o usuário criado!"
 yellow "	  Para iniciar o TeaSpeak, você pode usar os seguintes scripts bash:"
-yellow "      teastart.sh, teastart_minimal.sh, teastart_autorestart.sh and tealoop.sh."
+yellow "          teastart.sh, teastart_minimal.sh, teastart_autorestart.sh and tealoop.sh."
 green_sleep "Script concluído com sucesso."
 
 exit 0
