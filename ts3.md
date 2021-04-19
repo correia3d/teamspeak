@@ -1,7 +1,7 @@
 #!/bin/bash
 # Instalador Teamspeak Server
 
-INSTALLER_VERSION="1.12"
+INSTALLER_VERSION="1.4.22"
 
 function debug() {
     #echo "debug > ${@}"
